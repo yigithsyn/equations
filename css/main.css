@@ -1,0 +1,129 @@
+/* navbar text color */
+
+.navbar .navbar-brand {
+  color: #fed136
+}
+
+.navbar>.navbar-brand a {
+  color: #fed136
+}
+
+/* @media (min-width: 768px) {
+  .navbar> .navbar-brand {
+    color: rgba(255, 255, 255, 0.7)
+  }
+  .navbar> .navbar-brand a {
+    color:  rgba(255, 255, 255, 0.7);
+  }
+} */
+
+.navbar-brand {
+  font-size: 16px;
+  margin-right: 0rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 18px;
+  }
+}
+
+/* navlink */
+
+.nav-link {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .nav-link {
+    font-size: 16px;
+  }
+}
+
+/* navbar toggler */
+
+.navbar .navbar-toggler {
+  border-color: #ddd;
+}
+
+.navbar-toggler {
+  background-color: #fed136;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 1.00em;
+}
+
+.navbar-toggler-icon {
+  height: 1.25em;
+  width: 1.25em;
+}
+
+@media (min-width: 768px) {
+  .navbar-toggler-icon {
+    height: 1em;
+    width: 1em;
+  }
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#888' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* footer */
+
+.footer {
+  height: 50px;
+  /* Set the fixed height of the footer here */
+  line-height: 50px;
+  /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+/* horizontal line */
+
+.fade_rule {
+  height: 10px;
+  background-color: #E6E6E6;
+  width: 100%;
+  margin: 0 auto;
+  background-image: linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+  background-image: -o-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+  background-image: -moz-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+  background-image: -webkit-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+  background-image: -ms-linear-gradient(left, white 2%, #E6E6E6 50%, white 98%);
+  background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, lightgreen), color-stop(0.98, white));
+}
+
+/* card */
+
+@media (min-width: 0px) {
+  .card-columns {
+    column-count: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+    column-count: 3;
+  }
+}
+
+.card-title {
+  font-size: 1.1rem;
+}
+
+.popover {
+  max-width: 200%;
+}
+
+/* form */
+
+.form-group {
+  margin-bottom: 0.5rem;
+}
